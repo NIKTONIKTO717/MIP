@@ -1,0 +1,11 @@
+Spresnenie rámcovej témy
+Rámcová téma: Organizácia vzdelávania
+Spresnenie: Vypoèítanie obsahu polygónu ako problém na základnej škole / Moodle ako nástoj na výuèbu matematiky a jeho použitie v e-learnigu
+
+Jednou zo zložiek organizácie vzdelávania je spôsob výkladu a neskoršie aj pochopenie základných problémov v Euklidovskej geometrii.
+Tie sú obèas príliš algoritmizované a namiesto detailnému pochopeniu postupu riešenia až do håbky základných axióm je tento aspokt vo výuèbe potláèaný a nahrádzaný umelým domnením chápania podstaty.
+
+Odkaz na èlánok: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1061.3232&rep=rep1&type=pdf
+
+Samuel Krempaský
+
