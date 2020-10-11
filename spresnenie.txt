@@ -2,7 +2,6 @@ Spresnenie rámcovej témy
 Rámcová téma: Organizácia vzdelávania
 Spresnenie: Moodle ako nástoj na vıuèbu matematiky a jeho pouitie v e-learnigu
 
-100 SLOV!
 Prostredia e-learningu môu prispie k procesu vıuèby a uèenia, pokia¾ sú správne integrované. 
 Tvorba vlastnıch riešení však vyaduje programovacie schopnosti a èas. Alternatívou môe by 
 pouitie u vytvoreného CMS (Content Management Sytem). Moodle (Modular Object-Oriented Dynamic 
