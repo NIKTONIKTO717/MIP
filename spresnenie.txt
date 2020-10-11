@@ -1,11 +1,18 @@
 Spresnenie rámcovej témy
 Rámcová téma: Organizácia vzdelávania
-Spresnenie: Vypoèítanie obsahu polygónu ako problém na základnej škole / Moodle ako nástoj na vıuèbu matematiky a jeho pouitie v e-learnigu
+Spresnenie: Moodle ako nástoj na vıuèbu matematiky a jeho pouitie v e-learnigu
 
-Jednou zo zloiek organizácie vzdelávania je spôsob vıkladu a neskoršie aj pochopenie základnıch problémov v Euklidovskej geometrii.
-Tie sú obèas príliš algoritmizované a namiesto detailnému pochopeniu postupu riešenia a do håbky základnıch axióm je tento aspokt vo vıuèbe potláèanı a nahrádzanı umelım domnením chápania podstaty.
+100 SLOV!
+Prostredia e-learningu môu prispie k procesu vıuèby a uèenia, pokia¾ sú správne integrované. 
+Tvorba vlastnıch riešení však vyaduje programovacie schopnosti a èas. Alternatívou môe by 
+pouitie u vytvoreného CMS (Content Management Sytem). Moodle (Modular Object-Oriented Dynamic 
+Learning Environment) si postupne získava popularitu vo svete, ako systém riadenia kurzov pre 
+e-learning. Je open-source èo umoòuje prispôsobi systém individuálnym potrebám a poiadavkám. 
+Je prostredím, ktoré umoní vzájomnú spoluprácu študentov èi u samostatne alebo popri tradiènej 
+vıuèbe v triede. Jeho pouitie je vhodné aj na vıuèbu matematiky a jej oborov, poprípade ako 
+doplnok k inım prístupom k vıuèbe by mal prinies mnoho pozitív.  
 
-Odkaz na èlánok: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1061.3232&rep=rep1&type=pdf
+Primárny zdroj: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1061.3232&rep=rep1&type=pdf
 
 Samuel Krempaskı
 
