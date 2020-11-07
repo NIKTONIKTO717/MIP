@@ -15,15 +15,15 @@
 
 \pagestyle{headings}
 
-\title{Názov\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2015/16, vedenie: Meno Priezvisko}} % meno a priezvisko vyučujúceho na cvičeniach
+\title{Moodle ako nástoj na výučbu matematiky a jeho použitie v e-learnigu\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2020/21, vedenie: Jozef Sitarčík}} % meno a priezvisko vyučujúceho na cvičeniach
 
-\author{Meno Priezvisko\\[2pt]
+\author{Samuel Krempaský\\[2pt]
 	{\small Slovenská technická univerzita v Bratislave}\\
 	{\small Fakulta informatiky a informačných technológií}\\
-	{\small \texttt{...@stuba.sk}}
+	{\small \texttt{xkrempasky@stuba.sk}}
 	}
 
-\date{\small 30. september 2015} % upravte
+\date{\small 8. november 2020} % upravte
 
 
 
@@ -32,93 +32,81 @@
 \maketitle
 
 \begin{abstract}
-\ldots
+Prostredia e-learningu môžu prispieť k procesu výučby a učenia, pokiaľ sú správne integrované. Tvorba vlastných riešení však vyžaduje programovacie schopnosti a čas. Alternatívou môže byť 
+použitie už vytvoreného CMS (Course Management Sytem). Moodle (Modular Object-Oriented Dynamic Learning Environment) si postupne získava popularitu vo svete, ako systém riadenia kurzov pre e-learning. Napriek tomu že je dostupných viacero podobných riešení, aj medzi nimi sa dajú nájsť rozdiely. Tento článok sa venuje porovnaniu s inými technológiami, sumarizáciou ich využiteľnosti a vlastností pre pre použitie v procese e-learningu. Napriek tomu že je dostupných veľa podobných riešení, aj medzi nimi sa dajú nájsť rozdiely.
 \end{abstract}
 
 
 
 \section{Úvod}
 
-Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
+Moodle je open-source čo umožňuje prispôsobiť systém individuálnym potrebám a požiadavkám. Je prostredím, ktoré umožní vzájomnú spoluprácu študentov či už samostatne alebo popri tradičnej výučbe v triede.
 
-Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
-Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlený v časti~\ref{nejaka}.
-Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
-Záverečné poznámky prináša časť~\ref{zaver}.
+Článok v časti~\ref{porovnanie} uvádza prehľad nástrojov podobných technológii Moodle. Ďalej v časti~\ref{moodle} sa zameriava na samotný nástroj Moodle. V časti \ref{použiteľnosť} sa však zameria na porovnanie tejto technológie s ostatnými ktoré boli spomenuté v čast~\ref{porovnanie}. Časti~\ref{funkcie} a~\ref{rozsirenia} bližšie popisujú funkcie nástroja Moodle a možnosti ich prípadného rozšírenia. Záverečné poznámky spolu s krátkym zhrnutím prináša časť~\ref{zaver}.
 
 
 
-\section{Nejaká časť} \label{nejaka}
-
-Z obr.~\ref{f:rozhod} je všetko jasné. 
+\section{Prehľad nástrojov pre použitie v e-learningu, alternatívy pre Moodle a ich rozdiely} \label{porovnanie}
+Okrem platformy Moodle je možné nájsť množstvo nástrojov s podobným alebo alternatívnym prístupom a možnosťami ako využíva Moodle. Vybrané preto sú majoritné alternatívy - Blackboard, Google Classroom, Chamilo. Porovnanie záujmov o tieto výrazy v Google Trends pre obdobie 11/2019 až 11/2020 jasne ukazuje ich popularitu vo svete na obr.~\ref{f:stats}. Dôležité je aj merítko geografickej polohy, nakoľko napríklad na území Slovenska sa teší obľube Moodle, viď. obr.~\ref{f:statsSK}. 
 
 \begin{figure*}[tbh]
 \centering
-%\includegraphics[scale=1.0]{diagram.pdf}
-Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
-\caption{Rozhodujúci argument.}
-\label{f:rozhod}
+\includegraphics[width=\textwidth]{diagram.jpg}
+%Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
+\caption{Porovnanie podľa Google Trends - územie celý svet}
+\label{f:stats}
+\end{figure*}
+
+\begin{figure*}[tbh]
+\centering
+\includegraphics[width=\textwidth]{diagramSK.jpg}
+%Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
+\caption{Porovnanie podľa Google Trends - územie Slovensko}
+\label{f:statsSK}
 \end{figure*}
 
 
 
-\section{Iná časť} \label{ina}
+\section{Moodle ako nástroj v e-learningu } \label{moodle}
+Moodle ako nástroj v e-learningu je možné použiť viacerými spôsobmi. Podľa TAM \footnote{ ,,Technology acceptance model'' - \url{https://en.wikipedia.org/wiki/Technology_acceptance_model}} je dôležitý postoj k danej technológii a rozdeľuje ho do 3 kategórií. Tento model pozoruje na používaní nástroja Moodle aj štúdia \cite{hsu2013extended}. 
 
-Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
-
-Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dokázané, že to tak nie je~\cite{Czarnecki:Staged, Czarnecki:Progress}. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory\cite{PLP-Framework}. Dôležité veci možno \emph{zdôrazniť kurzívou}.
-
-
-\subsection{Nejaké vysvetlenie} \label{ina:nejake}
-
-Niekedy treba uviesť zoznam:
-
-\begin{itemize}
-\item jedna vec
-\item druhá vec
-	\begin{itemize}
-	\item x
-	\item y
-	\end{itemize}
-\end{itemize}
-
-Ten istý zoznam, len číslovaný:
-
-\begin{enumerate}
-\item jedna vec
-\item druhá vec
-	\begin{enumerate}
-	\item x
-	\item y
-	\end{enumerate}
-\end{enumerate}
+Pre e-learnig ponúka Moodle viacero vhodných funkcií. Jeden z konceptov je využívanie tohoto nástroja ako banky informácií či akéhosi správcu informácií. Takto bolo Moodle najčastejšie používaný medzi vysokoškolskými študentmi aj v štúdii, kde bola potvrdená hypotéza, že Moodle sa používa hlavne ako úložisko materiálov a informácií \cite{costa2012use}.  
 
 
-\subsection{Ešte nejaké vysvetlenie} \label{ina:este}
+\section{Použiteľnosť nástroja Moodle v porovnaní s alternatívami } \label{pouzitelnost}
 
-\paragraph{Veľmi dôležitá poznámka.}
-Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
+\subsection{Blackoboard} \label{pouzitelnost:blackboard}
+
+Blackoboard sa javí ako vhodná alternatíve pre Moodle, avšak v prieskume medzi študentami uspel viac Moodle. 75\% študentov uviedlo že jednoduchší na používanie sa im zdá Moodle \cite{machado2007blackboard}.
+
+\subsection{Google Classroom} \label{pouzitelnost:classroom}
+
+Google Classroom sa javí viac ako rovnocenná alternatíva, množstvom a použiteľnosťou si je rovný s platformou Moodle \cite{barmanfacilitating} . 
+
+
+\section{Prehľad možností a funkcií nástroja Moodle} \label{funkcie}
+
+E-learningové prostrediach založené na obsahu učiva sú potrebné. Učitelia nemajú čas na ich vlastnú výstavbu. Je preto dôležité vytvoriť prostredie podľa potrieb učiteľa, podľa obsahu či typu učiva. Nakoľko dizajn Moodle je založený na sociálno-konštruktivistickej pedagogike \cite{klaus2005you}, umožňuje ľahké a príjemné používanie prostredia čo vedie k porozumeniu a rozvoju záujmu aj o predmety, ktoré sa považujú za ťažko naučiteľné, za ktoré sú považované predmety ako matematika.
+
+
+\section{Rozšírenia Moodle a ich využitie v praxi} \label{rozsirenia}
+Kedže je Moodle open-source projekt, celý jeho zdrojový kód je voľný dostupný a je preto vhodný pre akékoľvek rozširovanie, či upravovanie. Ku dňu publikovania článku sa nachádza na stránkach Moodle.com 1745 pluginov, z toho 146 tém upravujúcich vzhľad, ktorými je možné si základné funkcie obohatiť, alebo vylepšiť \cite{Moodle:plugins}.
+
+Témy sú rozšírenia ktoré umožňujú alebo priamo menia vzhľad a rozloženie prvkov prostredia. 
+
+Pluginy sú rozšírenia ktoré pridávajú funkcionality alebo upravujú funkcie už samotného jadra. 
 
 
 
-\section{Dôležitá časť} \label{dolezita}
+\section{Záver} \label{zaver}
 
-
-
-
-\section{Ešte dôležitejšia časť} \label{dolezitejsia}
-
-
-
-
-\section{Záver} \label{zaver} % prípadne iný variant názvu
 
 
 
 %\acknowledgement{Ak niekomu chcete poďakovať\ldots}
 
 
-% týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
+
 \bibliography{literatura}
-\bibliographystyle{plain} % prípadne alpha, abbrv alebo hociktorý iný
+\bibliographystyle{plain}
 \end{document}
